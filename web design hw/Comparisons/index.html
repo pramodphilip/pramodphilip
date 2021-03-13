@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap and Styles CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <title>Comparison</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color:rgba(166, 63, 76, 1);">
+      <div class="container-fluid">
+        <div>
+          <a class="navbar-brand" id="lat_box" href="../index.html">Latitude</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <div id="white_text">Plots</div>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="../vsMaxTemp/index.html">Max Temperature</a></li>
+                <li><a class="dropdown-item" href="../vsHumidity/index.html">Humidity</a></li>
+                <li><a class="dropdown-item" href="../vsCloudiness/index.html">Cloudiness</a></li>
+                <li><a class="dropdown-item" href="../vsWindSpeed/index.html">Wind Speed</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" id="white_text" aria-current="page" href="../Comparisons/index.html"><b>Comparisons</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="white_text" href="../Data/index.html">Data</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="box_gen">  
+      <div class="container">
+        <div class="row" style="margin-top:0em;">
+          <div class="box_comp">
+
+            <div class="row">
+              <div class="col">
+                <h4 id="maroon">Comparison: Latitude vs X</h4>
+                <hr> 
+                <p class="smaller_font">Click any plot to get an in-depth analysis</p>       
+              </div>
+
+
+              <div class="row" style="margin-bottom: 0em;">
+
+                <div class="col text-center">
+                  <figure class="comparison">
+                    <figcaption id="maroon"><em>vs. Max Temperature</em></figcaption>
+                    <a href="../vsMaxTemp/index.html">
+                      <img class="fig-size-right-comp responsive" style="margin-left:1em" src="../Resources/assets/images/Fig1.png" alt="Latitude vs Maximum Temperature">
+                    </a>
+                  </figure>
+
+                  <figure class="comparison">
+                    <figcaption id="maroon"><em>vs. Humidity</em></figcaption>
+                      <a href="../vsHumidity/index.html">
+                        <img class="fig-size-right-comp responsive" style="margin-left:1em" src="../Resources/assets/images/Fig2.png" alt="Latitude vs Humidity">
+                      </a>
+                  </figure>
+                </div>
+
+                <div class="col text-center">
+                  <figure class="comparison">
+                    <figcaption id="maroon">vs. Cloudiness</figcaption>
+                      <a href="../vsCloudiness/index.html">
+                        <img class="fig-size-right-comp responsive" style="margin-left:1em" src="../Resources/assets/images/Fig3.png" alt="Latitude vs Cloudiness">
+                      </a>
+                  </figure>
+                
+                  <figure class="comparison">
+                    <figcaption id="maroon">vs. Wind Speed</figcaption>
+                      <a href="../vsWindSpeed/index.html">
+                        <img class="fig-size-right-comp responsive" style="margin-left:1em" src="../Resources/assets/images/Fig4.png" alt="Latitude vs Wind Speed">
+                      </a>
+                  </figure>
+                </div>
+                </div>
+
+                  
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>    
+        </div>
+
+         
+
+         
+            
+            
+
+
+      </div>
+
+    </div>
+
+    
+  </body>
+</html>
