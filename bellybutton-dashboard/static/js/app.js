@@ -1,6 +1,6 @@
 /***********************************************/
 // Import JSON data from samples.json
-d3.json("../../../data/samples.json").then(function(d){
+d3.json("../../data/samples.json").then(function(d){
     var data = d;
 
     /***********************************************/
